@@ -1,0 +1,232 @@
+body{
+    background-color:  #0f1626;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header_container {
+    background-color: #0f1626;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.logo {
+   font-family: 'open sans', sans-serif;
+    color: red;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: semi-bold;    
+    font-size: 22px;
+    letter-spacing: 5px;
+    padding: 40px;
+    text-decoration: none;
+}
+
+.navbar {
+    margin-right: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*FONTS FOR THE NAVIGATION BAR*/
+
+.navitems a {
+    font-family: 'open sans', sans-serif;
+    color: rgba(245, 238, 238, 0.842);
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.navitems a:hover {
+    color: rgba(245, 238, 238, 0.842);
+    background-color: red;
+}
+
+.logo:hover {
+    background-color: red;
+    color: white;
+}
+
+.headline_container {
+    width: 40%;    
+    align-self: center;
+    margin-bottom: 150px;   
+}
+
+/*FONT STYLE FOR HEADER HEADLINE*/
+
+.header_headline {   
+    width: 85%;
+    font-family: 'open sans',serif;
+    color: red;
+    font-size: 128px;
+    font-weight: medium;
+    font-style: normal;
+    letter-spacing: -2px;
+    line-height: 145px;
+    text-align: center;   
+    padding-left: 50px;
+    text-transform: lowercase;
+}    
+
+.image_container {
+    width: 60%;
+    align-self: center;    
+}
+
+.navitems a:active {
+    color: red;
+}
+
+.font_container {    
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto ;
+    background-color: #0f1626;  
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+h1 {
+   width: 55%;
+   margin: 0 auto;
+    font-family: 'open sans',sans-serif;
+    color: rgba(245, 238, 238, 0.842);
+    font-size: 70px;
+    font-weight: semi-bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h2 {   
+   width: 55%;
+   color: rgba(245, 238, 238, 0.842);
+   font-family: 'open sans', sans-serif;
+   font-size: 45px;
+   font-style: normal;
+   font-weight: medium;
+   letter-spacing: 2px;
+   line-height: 60px;
+   text-transform: uppercase;
+}
+
+h3 {
+    width: 55%;    
+    color: rgba(245, 238, 238, 0.842);
+    font-family: 'open sans', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: medium;
+    letter-spacing: 1px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+h4 {
+    width: 55%;    
+    color: rgba(245, 238, 238, 0.842);
+    font-family: 'open sans', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: medium;
+    letter-spacing: 2px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+p {
+    color: rgba(245, 238, 238, 0.842);
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 33px;    
+    width: 33%;
+}
+
+.main_container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+   align-items: center;
+}
+
+footer {
+    width: 100%;
+}
+
+.footer_container {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {    
+    display: flex;
+    flex-direction: column;    
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+.column_headline {
+    color: red;   
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    font-weight: semi-bold;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px;   
+}
+
+.columnline {
+    width: 41%;
+    height: 1px;
+    background-color: red;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: rgba(245, 238, 238, 0.842);
+    text-decoration: none;    
+    padding-bottom: 25px;
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: 2px;    
+}
+
+.footer_line {
+    width: 100%;
+    height: 1px;
+    background-color: red;
+    opacity: 80%;
+    margin: 0;
+    padding: 0;
+}

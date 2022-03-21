@@ -1,0 +1,149 @@
+.header_container {
+    background-color: #0f1626;
+    max-width: 2000px;
+    width: 100%;
+    min-height: 875px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 20px 10px 50px;
+}
+
+.logo {
+   font-family: 'open sans', sans-serif;
+    color: red;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: semi-bold;    
+    font-size: 22px;
+    letter-spacing: 5px;        
+    text-decoration: none;
+}
+
+.nav_container {
+    min-height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;   
+    margin: 0;
+}
+
+.navbar {    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navitems a {
+    font-family: 'open sans', sans-serif;
+    color: #f1f1ef;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.navitems a:hover {
+    color:#f1f1ef;
+    background-color: red;    
+}
+
+.logo:hover {
+    background-color: red;
+    color: #f1f1ef;
+    padding: 30px;
+}
+
+.icons {
+    width: 42px;
+    height: 42px;      
+}
+
+.facebook {
+    padding: 5px 20px 5px 50px;
+}
+
+.icons:hover {
+    transform: scale(1.2);
+}
+
+.headline_container {
+    width: 40%; 
+    margin-top: 100px; 
+    order: 2;   
+}
+
+.headerheadline { 
+    max-width: 800px;
+    width:100%;
+    font-family: 'open sans', sans-serif;    
+    text-align: left;
+    text-transform: uppercase;  
+    margin: 0; 
+}
+
+.one, .two, .three {
+    color: red;
+    font-size: 105px;
+    line-height: 120px;
+    margin: 5px;  
+    font-weight: bold;
+    font-style: normal;  
+}
+
+.one {
+    letter-spacing: 8.5px;
+    text-align: left;    
+}
+
+.two {
+    letter-spacing: -6px;
+    text-align: left;   
+}
+    
+    .three {
+    letter-spacing: 11px;
+    text-align: left;    
+}
+
+.pre {
+    color: white;
+    opacity: 60%;
+    letter-spacing: 5.6px;  
+    line-height: 50px; 
+    text-align: left;
+    font-size: 35px;
+    margin-left: 10px ;
+}
+
+.headerbutton_container {
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header_button {    
+    margin-top: 40px;    
+}   
+
+.image_container {
+    width: 60%;
+    min-height: 875px;    
+} 
+
+.header_image {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 850px;
+}
+
+.navitems a:active {
+    color: red;
+}
